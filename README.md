@@ -1,6 +1,9 @@
 # byeblock
 ByeBlock unblocks the geoblocking on SoundCloud.
 
+##Get it  
+[Chrome store](https://chrome.google.com/webstore/detail/byeblock-soundcloud-geobl/polnjhnbmdjldjkkpfbjgdcoibpfniki)
+
 ##Description
 SoundCloud recently introduced a geoblock feature to tracks, blocking A LOT of tracks when you are visiting from any country that isn't the states.
 
