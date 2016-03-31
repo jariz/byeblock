@@ -114,7 +114,6 @@ window.webpackJsonp = function (x, modules) {
             }
         };
     }
-    // }
 
     realWebpack.apply(window, [x, modules]);
 
