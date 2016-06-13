@@ -5,7 +5,7 @@
   "author": "Jari Zwarts",
   "homepage_url": "https://jari.io",
   "description": "ByeBlock attempts to stream tracks through other countries when they are blocked in your own country.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
