@@ -7,7 +7,7 @@
 
     var realWebpack = window.webpackJsonp;
     var customModules = {
-        69: function (realModule) {
+        60: function (realModule) {
             return function (module, b, require) {
                 realModule.apply(realModule, arguments);
 
@@ -104,7 +104,7 @@
             }
             return realModule;
         },
-        258: function (realModule) {
+        262: function (realModule) {
             realModule.exports = {
                 getLongBlockMessage: function () {
                     return "This track is not available in United States (through ByeBlock)";
@@ -131,9 +131,9 @@
         //call real bootstrapper
         realWebpack.apply(window, [x, modules]);
 
-        Object.keys(customModules).forEach(function(key) {
-            console.log(key, window.webpackCache[key]);
-        });
+        // Object.keys(customModules).forEach(function(key) {
+        //     console.log(key, window.webpackCache[key]);
+        // });
     };
 
 }());
