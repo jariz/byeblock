@@ -12,7 +12,7 @@ chrome.webRequest.onBeforeRequest.addListener(
            
             //request injected script
             var xhr = new XMLHttpRequest();
-            xhr.open("GET", chrome.extension.getURL('byeblock.js'), false);
+            xhr.open("GET", chrome.extension.getURL('byeblock2.js'), false);
             xhr.send(null);
             var inject = xhr.responseText
            
