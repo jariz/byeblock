@@ -3,7 +3,7 @@
  */
 chrome.webRequest.onBeforeRequest.addListener(
     function (details) {
-        if(details.url.indexOf("assets/views") !== -1 && details.url.indexOf("?bypass-the-filter") === -1) {
+        if(details.url.indexOf("assets/app") !== -1 && details.url.indexOf("?bypass-the-filter") === -1) {
             //request real file. (sync)
             var xhr = new XMLHttpRequest();
             xhr.open("GET", details.url + "?bypass-the-filter", false); //bypass our own filter
